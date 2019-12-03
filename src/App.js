@@ -3,6 +3,7 @@ import { render } from "react-dom";
 import { Router, Link } from "@reach/router";
 import SearchParams from "./SearchParams";
 import Details from "./Details";
+import "regenerator-runtime/runtime";
 
 const App = () => {
   return (
